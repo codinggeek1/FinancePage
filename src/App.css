@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  background-image: url('/Users/pardhivvarma/Documents/CP/my-react-app/public/cp.png');
+  background-image: url('src/cp.png');
   background-color: #000;
   opacity: 2;
   background-size: cover;

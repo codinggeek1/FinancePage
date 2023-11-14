@@ -1,8 +1,7 @@
 // src/App.js
-import React, { useState, useEffect } from 'react';
-import './App.css';
-import logoImage from './logo.png';
-import Web3 from 'web3';
+import React from 'react';
+import './App.css'; // You can import your CSS file here
+import logoImage from '/Users/pardhivvarma/Documents/my-react-app/src/logo.png';
 
 function App() {
   const [web3, setWeb3] = useState(null);

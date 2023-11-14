@@ -1,7 +1,7 @@
 // src/App.js
 import React from 'react';
 import './App.css'; // You can import your CSS file here
-import logoImage from '/Users/pardhivvarma/Documents/my-react-app/src/logo.png';
+import logoImage from './logo.png';
 
 function App() {
   return (

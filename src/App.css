@@ -1,38 +1,142 @@
-.App {
-  text-align: center;
+/* styles.css */
+body {
+  background-image: url('/Users/pardhivvarma/Documents/CP/my-react-app/public/cp.png');
+  background-color: #000;
+  opacity: 2;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* src/App.css */
+#logo img{
+  max-width: 50px; /* Set the maximum width of your logo */
+  max-height: 70px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Add any other styling as needed */
+#connect-button-top {
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 2px solid #53BA95;
+}
+
+#connect-button-top:hover {
+  background-color: #53BA95;
+}
+
+#content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 70vh;
 }
 
-.App-link {
-  color: #61dafb;
+.text-box {
+  background: #000;
+  width: 496px;
+  height: 300px;
+  border: 2px solid #53BA95;
+  padding: 30px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-box input {
+  width: 432px;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid #53BA95;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.connect-button-inside-box {
+  background: #000;
+  width: 446px;
+  color: #fff;
+  padding: 20px;
+  border: 2px solid #53BA95;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.connect-button-inside-box:hover {
+  background-color: #53BA95;
+}
+
+.custom-text {
+  position: absolute;
+  width: 225px;
+  height: 18.31px;
+  top: 456.74px;
+  left: 600px;
+  color: #C7CBCD;
+}
+
+.exchange-rate {
+  position: absolute;
+  width: 216px;
+  height: 18.31px;
+  top: 494.44px;
+  left: 600px;
+  color: #C7CBCD;
+}
+
+.view-etherscan {
+  background-color: transparent;
+  position: absolute;
+  width: auto;
+  height: 24px;
+  top: 650px;
+  left: 960px;
+  color: #C7CBCD;
+  cursor: pointer;
+  border: transparent;
+}
+
+.create-transaction {
+  position: absolute;
+  background-color: transparent;
+  color: #C7CBCD;
+  cursor: pointer;
+  width: auto;
+  height: 24px;
+  top: 650px;
+  left: 580px;
+  border: transparent;
+}
+
+.keep-assets-liquid {
+  font-size: 28px;
+  color: #B4AFAF;
+}
+
+.conversion {
+  position: absolute;
+  width: auto;
+  height: 17px;
+  top: 494.44px;
+  left: 950px;
+  color: #C7CBCD;
 }

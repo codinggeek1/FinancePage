@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    font-family: 'Manrope', sans-serif; /* Assuming Manrope is your desired font */
+}
+
+.Token {
+    width: 1440px;
+    height: 1027px;
+    position: relative;
+    background: #181818;
+}
+
+.Button,
+.FormButton,
+.Rectangle2,
+.FormLabel,
+.YouWillReceive,
+.Crusdc,
+.ExchangeRate,
+.SectionHeading2LidoStatistics,
+.SectionLinkViewOnEtherscan,
+.KeepYourAssetsLiquid,
+.Rectangle8 {
+    box-sizing: border-box;
+}
+
+.Button {
+    width: 150.97px;
+    height: 46px;
+    padding: 13px 23.64px 14px 24px;
+    left: 1202px;
+    top: 48px;
+    position: absolute;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px #3EB489 solid;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+}
+
+.ConnectWallet {
+    width: 103.33px;
+    height: 19px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 14px;
+    word-wrap: break-word;
+}
+
+.Rectangle2 {
+    width: 496px;
+    height: 428px;
+    left: 472px;
+    top: 221px;
+    position: absolute;
+    border-radius: 20px;
+    border: 1px #3EB489 solid;
+}
+
+.FormButton {
+    height: 56px;
+    padding: 20px 54.67px 17px 36px;
+    left: 504px;
+    top: 459px;
+    position: absolute;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px #3EB489 solid;
+    justify-content: flex-start;
+    align-items: center;
+    display: inline-flex;
+}
+
+.Stake,
+.Redeem {
+    width: 103.33px;
+    height: 19px;
+    text-align: center;
+    font-size: 14px;
+    font-family: Manrope;
+    font-weight: 700;
+    line-height: 14px;
+    word-wrap: break-word;
+}
+
+.FormButton.Redeem {
+    background: #C7CBCD;
+}
+
+.FormLabel {
+    width: 432px;
+    height: 149px;
+    left: 504px;
+    top: 289px;
+    position: absolute;
+    background: white;
+    border-radius: 10px;
+    border: 1px rgba(0, 10, 61, 0.12) solid;
+}
+
+.DivScHknohe {
+    width: 288.98px;
+    height: 113.02px;
+    left: 56px;
+    top: 18px;
+    position: absolute;
+}
+
+.AvailableToStake1200Usdc,
+.StakedAmount00Crusdc,
+.CreateApr100 {
+    width: 225px;
+    height: 43px;
+    left: -23px;
+    position: absolute;
+}
+
+.Rectangle3 {
+    width: 157px;
+    height: 31px;
+    left: 176px;
+    top: 9px;
+    position: absolute;
+    background: rgba(217, 217, 217, 0.30);
+    border-radius: 20px;
+}
+
+.Hgfdgfdh98gfdd {
+    left: 189px;
+    top: 15px;
+    position: absolute;
+    color: #213147;
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 600;
+    text-transform: lowercase;
+    line-height: 19.20px;
+    word-wrap: break-word;
+}
+
+.Ellipse1 {
+    width: 19px;
+    height: 20px;
+    left: 362px;
+    top: 33px;
+    position: absolute;
+}
+
+.YouWillReceive {
+    width: 225px;
+    height: 18.31px;
+    left: 501px;
+    top: 554px;
+    position: absolute;
+    color: #C7CBCD;
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 19.20px;
+    word-wrap: break-word;
+}
+
+.Crusdc,
+.ExchangeRate,
+.Crusdc1Usdc {
+    width: 87px;
+    height: 18.31px;
+    position: absolute;
+    text-align: right;
+    color: #C7CBCD;
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 400;
+    line-height: 19.20px;
+    word-wrap: break-word;
+}
+
+.SectionHeading2LidoStatistics,
+.SectionLinkViewOnEtherscan {
+    color: #C7CBCD;
+    font-size: 12px;
+    font-family: Manrope;
+    font-weight: 500;
+    line-height: 23.40px;
+    word-wrap: break-word;
+}
+
+.SectionLinkViewOnEtherscan {
+    width: 103.42px;
+    height: 17px;
+    left: 849px;
+    top: 665px;
+    position: absolute;
+}

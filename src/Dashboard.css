@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Manrope', sans-serif; /* Assuming Manrope is your desired font */
+    background-image: "/Users/pardhivvarma/Documents/my-react-app/src/cp.png";
 }
 
 .Token {

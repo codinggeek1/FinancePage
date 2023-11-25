@@ -7,7 +7,7 @@ export function Home({ connectWallet }) {
   return (
     <>
       <Header connectWallet={connectWallet} />
-    
+      
       <Body connectWallet={connectWallet} />
     </>
   );

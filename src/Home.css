@@ -1,6 +1,6 @@
 /* styles.css */
 body {
-  background-image: url('/Users/pardhivvarma/Documents/FinancePage/src/cp.png');
+  background-image: url('./cp.png');
   background-color: #000;
   opacity: 2;
   background-size: cover;

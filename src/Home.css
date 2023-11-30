@@ -22,8 +22,8 @@ header {
 
 /* src/App.css */
 #logo img{
-  max-width: 100px; /* Set the maximum width of your logo */
-  max-height: 100px;
+  max-width: 200px; /* Set the maximum width of your logo */
+  max-height: 200px;
 }
 
 /* Add any other styling as needed */
